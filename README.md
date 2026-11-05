@@ -1,17 +1,23 @@
-# 💻 Assignment Boilerplate
+# 💻 Learning CSS
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Starter files for a coding exercise that introduces CSS. You will style six practice pages,
+learning how to change colors, fonts, spacing, borders, backgrounds, and page layout, then
+publish the finished site to GitHub Pages.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. `index.html`,
+> `css01.html`–`css06.html`, and `reset.css` are your starter files — keep them in the repo.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, a final checklist, and the grading rubric. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
@@ -21,7 +27,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use the assignment name, like `learning-css`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -43,15 +49,29 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+> [!IMPORTANT]
+> Open the whole project **folder** in your editor, not a single HTML file on its own.
+> Your pages link to CSS files, and your editor can only resolve those paths if it can see
+> every file in the project.
+
+Every starter file is already in the **root folder** of this repo — the same folder as this
+README. Edit them where they are:
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+css01.html
+css02.html
+css03.html
+css04.html
+css05.html
+css06.html
+reset.css
 ```
+
+Do not rename or move these files. `index.html` links to each practice page by name, and it
+has to keep its name and stay in the root folder — GitHub Pages publishes from the root and
+serves `index.html` as your home page. Rename it and your site will 404. The external CSS file
+you create in Part 6.1 goes in the root folder too, unless the video tells you otherwise.
 
 ## 🤖 AI Policy
 
@@ -71,7 +91,7 @@ Your work has to be live on the web before you can submit it.
 
 1. **Commit your work in GitHub Desktop.**
    - Make sure **Current Branch** says `develop`.
-   - Enter a summary in the bottom-left box, like `Create index.html`, and click
+   - Enter a summary in the bottom-left box, like `Style css01.html`, and click
      **Commit to develop**.
 
    <img src=".github/images/github-desktop-commit.png" alt="GitHub Desktop's Changes tab with the Current Branch dropdown showing develop, a commit summary entered, and the Commit to develop button highlighted" width="600">
