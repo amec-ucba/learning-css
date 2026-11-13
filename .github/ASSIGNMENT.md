@@ -101,10 +101,10 @@ Each video builds on the previous one, so please don't skip ahead.
 >
 > - **Getting the starter files:** don't download a ZIP. Create your own repo from this
 >   template and open it with GitHub Desktop, as described in the
->   [README](README.md#-getting-started).
+>   [Getting Started guide](GETTING_STARTED.md).
 > - **Submitting:** don't zip your folder or upload a file. Publish your pages to GitHub
 >   Pages and submit a pull request URL in Canvas, as described in the
->   [README](README.md#-submitting-the-assignment).
+>   [Submitting guide](SUBMITTING.md).
 
 > [!IMPORTANT]
 > Open the entire project **folder** in VS Code, not a single HTML file. Your HTML pages
@@ -182,4 +182,4 @@ If something is not working, check these common issues first:
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).
