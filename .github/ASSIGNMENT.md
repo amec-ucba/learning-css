@@ -100,7 +100,7 @@ Each video builds on the previous one, so please don't skip ahead.
 > CSS, and follow this repo for getting your files and submitting:
 >
 > - **Getting the starter files:** don't download a ZIP. Create your own repo from this
->   template and open it with GitHub Desktop, as described in the
+>   template and clone it in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md).
 > - **Submitting:** don't zip your folder or upload a file. Publish your pages to GitHub
 >   Pages and submit a pull request URL in Canvas, as described in the
